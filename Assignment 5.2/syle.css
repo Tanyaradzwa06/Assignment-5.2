@@ -1,0 +1,88 @@
+
+/* 1. Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* 3. Grouping Selector */
+h2, h3 {
+    color: #174ea6;
+    margin-bottom: 10px;
+}
+
+/* 4. Class Selector */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+/* 5. ID Selector */
+#about {
+    background-color: #dcecff;
+    padding: 25px;
+    margin: 20px;
+    border-left: 5px solid #174ea6;
+}
+
+#contact {
+    background-color: #e0f2e9;
+    padding: 25px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* 6. Conflicting CSS Rules: Cascade and Specificity */
+p {
+    color: red;
+}
+
+.card p {
+    color: green;
+}
+
+/* Header and Footer Styling */
+header {
+    background-color: #174ea6;
+    padding: 30px;
+    text-align: center;
+}
+
+header p {
+    color: white;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
